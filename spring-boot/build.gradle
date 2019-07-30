@@ -17,7 +17,7 @@ dependencies {
     testCompile "io.micronaut:micronaut-http-server-netty:$micronautVersion"
     testCompile "org.springframework.boot:spring-boot-autoconfigure:$springBootVersion"
     testCompile "org.springframework.boot:spring-boot-actuator:$springBootVersion"
-    testCompile 'javax.servlet:javax.servlet-api:4.0.0'
+    testCompile 'javax.servlet:javax.servlet-api:4.0.1'
     testRuntime "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
     testRuntime  "org.springframework.boot:spring-boot-starter-tomcat:$springBootVersion"
 }
